@@ -1,7 +1,0 @@
-package com.sheena.defectapiproject.resource;
-
-@RequestMapping("/defect")
-public class DefectResource {
-
-	
-}

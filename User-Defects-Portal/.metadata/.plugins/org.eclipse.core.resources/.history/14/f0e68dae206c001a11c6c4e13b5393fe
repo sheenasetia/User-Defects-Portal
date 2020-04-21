@@ -1,3 +1,0 @@
-spring:
-	datasource:
-		driverClassName: com.sql.jdbc.Driver

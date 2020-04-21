@@ -24,7 +24,7 @@ public class UserProfileResource{
 	@GetMapping("/{username}")
 	public UserProfile getUserProfile(@PathVariable String username)
 	{
-		Users userInfo = restTemplate.getForObject("http://localhost:8081/users/"+username,Users.class);
+		Users userInfo = restTemplate.getForObject("http://users-service/users/"+username,Users.class);
 		List<Defect> userDefects = new ArrayList<>();
 		userDefects=dsc.getDefectsByUser(username);
 		return new UserProfile(userInfo, userDefects);
