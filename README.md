@@ -44,3 +44,12 @@ Microservice 3 --> User-profile-service
  ```bash  
 Result : User info + Defect details 
 ```
+
+ > **Microservices interact through Service Discovery Pattern.**
+ 
+ *Requirement Of Service Discovery :-*
+  * Dynamic urls in cloud
+  * Load Balancing
+ ```bash 
+ Technology to implement "SERVICE DISCOVERY" : EUREKA 
+ ```
